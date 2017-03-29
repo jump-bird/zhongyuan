@@ -1,0 +1,370 @@
+@charset "utf-8";
+.wrap {
+	width: 980px;
+	/*_width: 990px;*/
+	margin: 0 auto;
+	background-image: url(../images/bj.png);
+}
+.header {
+	/*width: 980px;*/
+	height: 72px;
+	background-image: url(../images/h_bj.png);
+}
+.logo {
+	float: left;
+	width: 265px;
+	height: 40px;
+	margin: 10px 0 0 15px;
+	background-image: url(../images/logo.png);
+}
+	/*导航栏*/
+.nav {
+	height: 34px;
+	padding: 4px;
+	padding-left: 88px;
+	background: url(../images/nav_bj.jpg) repeat-x 0 0;
+}
+	/*导航设置*/
+.nav a {
+	float: left;
+	height: 34px;
+	padding: 0 15px;
+	line-height: 34px;
+	text-decoration: none; 
+	color: #fff;
+}
+.nav .action_nav, .nav a:hover {
+	padding: 0 14px;
+	border-left: 1px solid #ac1736;
+	border-right: 1px solid #ac1736;
+	background: url(../images/nav_act_bj.jpg) repeat-x 0 0;
+}
+	/*首页面主体*/
+.main {
+	width: 960px;
+	height: 825px;
+	margin: 10px 0 10px 10px;
+}
+	/*栏目标题*/
+.title {
+	width: 940px;
+	height: 28px;
+	padding: 14px 10px 0;
+	background-color: white;
+}
+	/*热点信息*/
+.hot {
+	float: left;
+	width: 960px;
+	height: 267px;
+}
+	/*hot包含的滚动图片*/
+.scroll {
+	position: relative;
+	top: 0;
+	float: left;
+	width: 718px;
+	height: 251px;
+	margin-right: 10px;
+	padding: 8px 6px;
+	background-color: white
+}
+	/*隐藏透明框，鼠标悬停出现*/
+.scroll .first_blank, .last_blank {
+	display: none;
+}
+.scroll:hover .first_blank, .scroll:hover .last_blank {
+	display: block;
+}
+.scroll span:hover {
+	background-color: #87c3e0;
+	color: white;
+}
+.first_blank {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	height: 15px;
+	background-color: rgba(255,255,255,0.35);
+}
+.last_blank {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	height: 30px;
+	background-color: rgba(255,255,255,0.35);
+}
+.last_blank span {
+	float: right;
+	margin: 6px 9px 5px 0;
+	width: 17px;
+	height: 17px;
+	text-align: center;
+	background-color: #f5f5f5;
+}
+	/*hot包含的物业管理信息*/
+.property {
+	float: right;
+	overflow: hidden;
+	width: 210px;
+	height: 257px;
+	_height: 260px;
+	padding: 5px;
+	background-color: white;
+}
+.property_xian {
+	overflow: hidden;
+}
+	/*信息公告*/
+.msg {
+	float: left;
+	width: 960px;
+	height: 37px;
+	margin: 10px 0 10px 0;
+	background: white url(../images/laba.jpg) no-repeat 8px 8px;
+	}
+.msg_title {
+	float: left;
+	font: 12px "微软雅黑";
+	margin: 10px 0 10px 36px;
+	}
+	/*功能区*/
+.shop {
+	float: left;
+	width: 960px;
+	height: 266px;
+	margin: 0 10px 0 0;
+}
+	/*功能区的关于我们*/
+.aboutus {
+	float: left;
+	width: 260px;
+	_width: 250px;
+	height: 256px;
+	padding: 5px;
+	margin-right: 10px;
+	background-color: white;
+}
+.shop_dl {
+	margin: 0 auto;
+	height: 229px;
+}
+	/*功能区的内容——后勤、船员、仓储*/
+.contentinfo {
+	float: left;
+	width: 210px;
+	_width: 192px;
+	height: 256px;
+	padding: 5px;
+	margin: 0 10px 0 0;
+	background-color: white;
+}
+.contentinfo3 {
+	float: left;
+	width: 210px;
+	_width: 193px;
+	height: 256px;
+	padding: 5px;
+	background-color: white;
+}
+	/*动态新闻-最新动态*/
+.news {
+	float: left;
+	width: 960px;
+	height: 225px;
+	margin: 10px 0 0 0;
+}
+	/*最新动态*/
+.status {
+	float: left;	
+	width: 720px;
+	_width: 718px;
+	height: 215px;
+	padding: 5px;
+	margin-right: 10px;
+	background-color: white;
+}
+.status_xian{
+	overflow: hidden;
+}
+	/*联系我们*/
+.contactus {
+	float: right;
+	width: 210px;	
+	height: 215px;
+	padding: 5px;
+	background-color: white;
+}
+	/*尾部信息*/
+.footer {
+/*	width: 960px;*/
+	height: 87px;
+	margin: 0 10px 10px 10px;
+	font: bold 12px "Microsoft YaHei";
+	color: white;
+	text-align: center;
+	padding-top: 60px;
+	/*text-indent: 2em;*/
+	/*text-decoration: underline*/;
+	background-image: url(../images/foot_bj.png);
+}
+	/*以下3个是物业管理、关于我们、动态、联系我们的标题设置*/
+.model_title span {
+	float: left;
+	font: bold 12px "Microsoft YaHei";
+	color: white;
+	line-height: 27px;
+	
+}
+.model_title a {
+	float: right;
+	font: 12px "Arail";
+	color: white;
+	line-height: 27px;
+	text-decoration: none;;
+}
+.model_title {
+	height: 27px;
+	color: white;
+	padding: 0 14px 0 24px;
+	background: black url(../images/flower.png) no-repeat 10px 9px;
+}
+	/*后勤、船员、仓储的标题*/
+.content_title span {
+	float: left;
+	font: bold 12px "Microsoft YaHei";
+	color: black;
+	line-height: 27px;
+}
+.content_title {
+	height: 27px;
+	color: black;
+	padding: 0 14px 0 24px;
+	text-decoration: none;
+	background: white url(../images/flower.png) no-repeat 10px 9px;
+}
+	/*物业管理*/
+.property dl {
+	float: left;
+	width: 200px;
+	height: 40px;
+	padding: 4px 2px 3px;
+	margin-bottom: -1px;
+	border-bottom: 1px dotted black;
+	background: url(../images/jh.jpg) no-repeat 195px 18px;
+}
+.property dt {
+	float: left;
+	margin-top: 3px;
+	margin-right: 8px;
+}
+.property dd {
+	float: left;
+	margin-top: 3px;
+}
+.property dl a {
+	height: 33px;
+	font-family: "宋体";
+	font-size: 12px;
+	color: black;
+	line-height: 33px;
+	text-decoration: none;
+}
+.property img {
+	display: block;
+	width: 40px;
+	height: 31px;
+	border: 1px solid black;
+}
+	/*关于我们*/
+.aboutus dt {
+	float: left;
+	margin: 5px 0 5px;
+}
+.ablutus img {
+	display: block;
+	width: 260px;
+	height: 135px;
+}
+.aboutus dd {
+	float: left;
+	margin: 5px 8px 5px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #5a5a5a;
+}
+	/*后勤、船员、仓储*/
+.contentinfo dt, .contentinfo3 dt {
+	float: left;
+	margin: 6px 0;
+}
+.contentinfo img, .contentinfo3 img {
+	display: block;
+	width: 206px;
+	height: 135px;
+}
+.contentinfo dd, .contentinfo3 dd {
+	float: left;
+	margin: 6px 8px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #5a5a5a;
+}
+.contentinfo a, .contentinfo3 a {
+	float: right;
+	font: 12px "Arail";
+	margin-right: 6px;
+	color: black;
+	text-decoration: none;
+}
+	/*最新动态*/
+.status dl {
+	float: left;
+	width:700px;
+	height: 32px;
+/*	_padding-top: 6px;*/
+	padding-left: 13px;
+	margin-bottom: -1px;
+	border-bottom: 1px dotted black;
+	background: url(../images/status_logo.jpg) no-repeat 5px 10px; 
+}
+.status dt {
+	float: left;
+	_padding-top: 3px;
+}
+.status dl a {
+	height: 29px;
+	font: 12px "微软雅黑";
+	color: black;
+	line-height: 29px;
+	text-decoration: none;
+}
+.status dd {
+	float: right;
+	padding: 6px 40px 0 0;
+	font: 12px "微软雅黑";
+	color: black;
+}
+.status img {
+	margin-bottom: 6px;
+}
+	/*联系我们模块*/
+.contactus dl {
+	float: left;
+	display: inline;
+	width: 200px;
+	height: 48px;
+	margin: 3px 5px;
+	padding-top: 8px;
+	border: 1px solid black;
+}
+.contactus dt {
+	text-indent: 2em;
+	font: 12px "微软雅黑";
+}
+.contactus dd {
+	text-indent: 2em;
+	font: 12px "微软雅黑";
+}
